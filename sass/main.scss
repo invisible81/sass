@@ -1,0 +1,27 @@
+@import "./utils/variables";
+
+@import "./base/normalize";
+@import "./base/reset";
+@import "./base/common";
+
+@import "./components/container";
+@import "./components/logo";
+@import "./components/modal";
+@import "./components/social-team";
+@import "./components/social-media";
+@import "./components/subscribe";
+
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/studio";
+@import "./layout/work";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
+
+// ----------Portfolio---------
+
+
+@import "./components/portfplio-nav-btn";
+@import "./layout/portfolio-gallery";

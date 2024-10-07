@@ -1,0 +1,77 @@
+.subscribe {
+    margin: 12px 12px 0 0;
+  }
+  
+  .subscribe__form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .subscribe__label {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .subscribe__input {
+    width: 358px;
+    height: 50px;
+    padding: 15px 16px;
+  
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background: rgba(33, 150, 243, 0);
+  
+    background-color: #2f303a;
+  }
+  
+  
+  .subscribe__btn {
+    width: 200px;
+    height: 50px;
+    margin-top: 12px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background: var(--accent-color);
+    padding: 0 0 0 29px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 1px;
+    text-align: left;
+    &:hover,
+    &:focus {
+      cursor: pointer;
+    }
+   
+  }
+  
+
+  .subscribe__tel-logo {
+    position: relative;
+    margin-top: 36px;
+    width: 200px;
+  }
+  .subscribe__btn::after {
+    content: "";
+    position: absolute;
+    top: 34%;
+    right: 28px;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    
+    
+   
+    background-image:url(../icons/telegram.icon.svg);
+    background-size: contain;
+    background-origin: border-box;
+  }

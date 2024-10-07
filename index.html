@@ -14,14 +14,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
     <!-- header -->
     <header class="header">
       <div class="container">
-        <div class="header-menu">
+        <div class="header__menu">
           <!-- Лого -->
           <a href="" class="logo link"
             >Web<span class="logo__change-color">Studio</span></a
@@ -47,7 +47,7 @@
             <li class="contact-list__item">
               
               <a href="mailto:info@devstudio.com" class="contact-list__link link">
-                <svg class="icon-mail" width="16px" height="12px">
+                <svg class="contact-list__icon-mail" width="16px" height="12px">
                   <use href="./icons/sprite.svg#mail"></use>
                 </svg>
                 info@devstudio.com
@@ -55,7 +55,7 @@
             </li>
             <li class="contact-list__item">
               <a href="tel:+380961111111" class="contact-list__link link">
-                <svg class="icon-mobile" width="10px" height="16px">
+                <svg class="contact-list__icon-mobile" width="10px" height="16px">
                   <use href="./icons/sprite.svg#mobile"></use>
                 </svg>
                 +38 096 111 11 11
@@ -186,7 +186,7 @@
               <div class="team__bottom">
                 <h3 class="team__subtitle">Игорь Демьяненко</h3>
               <p class="team__descr">Product Designer</p>
-              <ul class="social">
+              <ul class="social list">
                
                 <li class="social__item">
                   <a class="social__link" href="">
@@ -231,7 +231,7 @@
               <div class="team__bottom">
                 <h3 class="team__subtitle">Ольга Репина</h3>
               <p class="team__descr">Frontend Developer</p>
-              <ul class="social">
+              <ul class="social list">
                 <li class="social__item">
                   <a class="social__link" href="">
                   <svg class="social__icon" width="20px" height="20px">
@@ -275,7 +275,7 @@
               <div class="team__bottom">
                 <h3 class="team__subtitle">Николай Тарасов</h3>
               <p class="team__descr">Marketing</p>
-              <ul class="social">
+              <ul class="social list">
                 <li class="social__item">
                   <a class="social__link" href="">
                   <svg class="social__icon" width="20px" height="20px">
@@ -319,7 +319,7 @@
               <div class="team__bottom">
                 <h3 class="team__subtitle">Михаил Ермаков</h3>
               <p class="team__descr">UI Designer</p>
-              <ul class="social">
+              <ul class="social list">
                 <li class="social__item">
                   <a class="social__link" href="">
                   <svg class="social__icon" width="20px" height="20px">
@@ -359,7 +359,7 @@
       <section class="clients">
         <div class="container">
           <h3 class="client__title title">Постоянные клиенты</h3>
-          <ul class="clients__list">
+          <ul class="clients__list list">
             <li class="client__item">
               <a href="" class="client__link">
                 <svg class="client__icon" width="41px" height="46.7px">
@@ -410,7 +410,7 @@
     <footer class="footer">
       <div class="container">
         
-        <div class="footer__blocks">
+        <div class="footer__wrapper">
           
           <div class="footer__contact-info">
             <!-- Лого футер -->
@@ -438,7 +438,7 @@
             
             <h2 class="social-media__subheader" >присоединяйтесь</h2>
             
-            <ul class="social-media__list">
+            <ul class="social-media__list list">
               <li class="social-media__item">
                 <a class="social-media__link" href="">
                   <svg class="social-media__icon" width="20px" height="20px">
